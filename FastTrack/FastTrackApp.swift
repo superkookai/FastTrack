@@ -12,6 +12,7 @@ struct FastTrackApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .navigationTitle("Fast Track")
         }
     }
 }
